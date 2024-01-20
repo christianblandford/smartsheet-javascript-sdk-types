@@ -1,0 +1,20 @@
+type Summary = {
+  id: number;
+  contactOptions: { email: string; name: string }[];
+  createdAt: string | number;
+  createdBy: CreatedBy<string>;
+  displayValue: string;
+  format: string;
+  formula: string;
+  hyperlink: Hyperlink;
+  image: Image;
+  lockedForUser: boolean;
+  modifiedAt: string | number;
+  modifiedBy: CreatedBy<string>;
+  objectValue: ObjectValue;
+  options: string[];
+  symbol: string;
+  title: string;
+  type: ColumnType;
+  validation: boolean;
+};

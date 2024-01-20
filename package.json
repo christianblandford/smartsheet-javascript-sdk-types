@@ -1,0 +1,14 @@
+{
+  "name": "smartsheet-javascript-sdk-types",
+  "version": "0.0.1",
+  "description": "Types for smartsheet-javascript-sdk",
+  "main": "index.js",
+  "repository": "https://github.com/christianblandford/smartsheet-javascript-sdk-types",
+  "author": "Christian Blandford",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
